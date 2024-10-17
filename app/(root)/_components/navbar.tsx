@@ -9,7 +9,7 @@ function Navbar() {
 	const pathname = usePathname()
 	return (
 		<div className='h-[10vh] fixed backdrop-blur-sm border-b inset-0 bg-background z-40'>
-			<div className='container max-w-4xl mx-auto h-[10vh] w-full flex items-center justify-between'>
+			<div className='container max-w-6xl mx-auto h-[10vh] w-full flex items-center justify-between'>
 				{/* LOGO */}
 				<Link href={'/'}>
 					<h1 className='text-4xl'>Shokhrukh</h1>
