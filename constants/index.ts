@@ -30,4 +30,20 @@ export const techStack = [
 		title: 'NodeJs',
 		image: '/assets/node.svg',
 	},
+	{
+		title: 'Sass',
+		image: '/assets/sass.svg',
+	},
+	{
+		title: 'MongoDB',
+		image: '/assets/mongodb.svg',
+	},
+	{
+		title: 'Jest',
+		image: '/assets/jest.svg',
+	},
+	{
+		title: 'Git',
+		image: '/assets/git.svg',
+	},
 ]
