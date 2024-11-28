@@ -1,7 +1,13 @@
-import React from 'react'
+import AboutMe from './_components/about-me'
+import Hero from './_components/hero'
 
 function Page() {
-	return <div>Page</div>
+	return (
+		<>
+			<Hero />
+			<AboutMe />
+		</>
+	)
 }
 
 export default Page

@@ -8,3 +8,26 @@ export const navLinks = [
 	{ name: 'Contact', route: '/contact', icon: Contact2 },
 	{ name: 'Resume', route: '/resume', icon: ResumeIcon },
 ]
+
+export const techStack = [
+	{
+		title: 'ReactJS',
+		image: '/assets/react.svg',
+	},
+	{
+		title: 'TypeScript',
+		image: '/assets/typescript.svg',
+	},
+	{
+		title: 'JavaScript',
+		image: '/assets/javascript.svg',
+	},
+	{
+		title: 'TailwindCss',
+		image: '/assets/tailwind.svg',
+	},
+	{
+		title: 'NodeJs',
+		image: '/assets/node.svg',
+	},
+]

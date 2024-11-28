@@ -11,9 +11,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: ChildProps) {
 	return (
 		<html lang='en' suppressHydrationWarning>
-			<body
-			// className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-			>
+			<body>
 				<ThemeProvider
 					attribute='class'
 					defaultTheme='system'
