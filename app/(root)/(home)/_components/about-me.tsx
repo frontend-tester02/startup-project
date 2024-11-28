@@ -5,7 +5,7 @@ function AboutMe() {
 	return (
 		<>
 			<div className='mx-auto flex flex-col justify-center max-w-5xl gap-8 text-center max-md:mt-32'>
-				<div className='w-[700px] flex flex-col space-y-4 self-center'>
+				<div className='flex flex-col space-y-4 self-center'>
 					<h1 className='font-serif text-3xl font-bold'>
 						About Me<span className='text-blue-500'>.</span>
 					</h1>
@@ -49,7 +49,7 @@ function AboutMe() {
 									height={70}
 									className='rounded-md object-cover'
 								/>
-								<h3 className='mt-4 font-bold items-center'>{item.title}</h3>
+								<h3 className='mt-4 font-bold text-center'>{item.title}</h3>
 							</div>
 						))}
 					</div>

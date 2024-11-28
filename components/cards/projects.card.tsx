@@ -34,7 +34,7 @@ function ProjectsCard(project: IProjectData) {
 			/>
 			<p className='mt-4 font-serif text-start'>{project.description}</p>
 
-			<div className='flex mt-4 items-center justify-between'>
+			<div className='flex  mt-4 items-center justify-between'>
 				{project.tags.map(item => (
 					<p key={item} className='text-blue-500'>
 						#{item}

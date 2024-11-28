@@ -56,7 +56,7 @@ export const projectData = [
 		previewImage: '/assets/udemy-clone.png',
 		description:
 			'A website I created for my nail salon business that I manage, located in Surrey BC. Users can read about us and learn more about our services while also booking online appointments.',
-		tags: ['ReactJs', 'NextJs', 'TypeScript', 'MongoDB'],
+		tags: ['ReactJs', 'NextJs', 'TypeScript', 'TailwindCss', 'MongoDB'],
 	},
 	{
 		title: 'NurBlog',
