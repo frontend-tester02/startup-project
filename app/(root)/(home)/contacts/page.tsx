@@ -1,9 +1,11 @@
 import ContactForm from '@/components/forms/contact'
+import TopBar from '@/components/shared/tob-bar'
 import { Mail, Phone } from 'lucide-react'
 
 async function Page() {
 	return (
-		<div className='mt-20'>
+		<>
+			<TopBar label='Contact' />
 			<iframe
 				src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27381.093809614!2d127.074304!3d37.55132105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca4d713856077%3A0x169df594b1f221cc!2sSeoul%20Children&#39;s%20Grand%20Park!5e1!3m2!1sen!2skr!4v1725374618988!5m2!1sen!2skr'
 				loading='lazy'
@@ -34,7 +36,7 @@ async function Page() {
 					</div>
 				</div>
 			</div>
-		</div>
+		</>
 	)
 }
 
