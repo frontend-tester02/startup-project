@@ -4,12 +4,13 @@ import { navLinks } from '@/constants'
 import { cn } from '@/lib/utils'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import Mobile from './mobile'
 
 function Navbar() {
 	const pathname = usePathname()
 	return (
 		<div className='h-[10vh] fixed backdrop-blur-sm border-b inset-0 bg-background z-40'>
-			<div className='container max-w-5xl mx-auto h-[10vh] w-full flex items-center justify-between'>
+			<div className='container max-w-5xl mx-auto h-[10vh] w-full flex items-center justify-between px-4'>
 				{/* LOGO */}
 				<Link href={'/'}>
 					<h1 className='text-4xl'>shoky.dev</h1>
@@ -28,7 +29,10 @@ function Navbar() {
 						</Link>
 					))}
 				</div>
-				<ModeToggle />
+				<div className='flex justify-end'>
+					<Mobile />
+					<ModeToggle />
+				</div>
 			</div>
 		</div>
 	)

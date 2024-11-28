@@ -38,12 +38,12 @@ function Hero() {
 						</Button>
 					</div>
 					<div className='flex justify-center gap-4'>
-						<Link href={'/courses'}>
+						<Link href={'/contacts'}>
 							<Button variant={'outline'} size={'lg'} className='rounded-full'>
 								Contact me
 							</Button>
 						</Link>
-						<Link href={'/blogs'}>
+						<Link href={'/projects'}>
 							<Button size={'lg'} className='rounded-full'>
 								Projects
 							</Button>

@@ -7,7 +7,7 @@ import { FaArrowRightFromBracket } from 'react-icons/fa6'
 
 function ProjectsCard(project: IProjectData) {
 	return (
-		<div className='my-4 flex flex-col gap-2 bg-secondary p-4 rounded-md'>
+		<div className='my-4 flex-col gap-2 bg-secondary p-4 rounded-md'>
 			<div className='flex items-center justify-between'>
 				<h2 className='font-serif font-bold text-2xl text-left'>
 					{project.title}
@@ -34,7 +34,7 @@ function ProjectsCard(project: IProjectData) {
 			/>
 			<p className='mt-4 font-serif text-start'>{project.description}</p>
 
-			<div className='flex  mt-4 items-center justify-between'>
+			<div className='flex mt-4 items-center justify-between'>
 				{project.tags.map(item => (
 					<p key={item} className='text-blue-500'>
 						#{item}
