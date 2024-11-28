@@ -12,7 +12,7 @@ function Navbar() {
 			<div className='container max-w-6xl mx-auto h-[10vh] w-full flex items-center justify-between'>
 				{/* LOGO */}
 				<Link href={'/'}>
-					<h1 className='text-4xl'>Shokhrukh</h1>
+					<h1 className='text-4xl'>shokh.dev</h1>
 				</Link>
 				<div className='gap-2 md:flex hidden'>
 					{navLinks.map(nav => (
