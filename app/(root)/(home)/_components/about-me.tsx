@@ -39,7 +39,7 @@ function AboutMe() {
 					<h1 className=' mb-2 font-serif text-3xl font-bold text-start'>
 						Tech Stack<span className='text-blue-500'>.</span>
 					</h1>
-					<div className='flex items-center flex-wrap space-y-2 space-x-6'>
+					<div className='flex items-center flex-wrap gap-6 space-y-2 space-x-6'>
 						{techStack.map(item => (
 							<div key={item.title}>
 								<Image
