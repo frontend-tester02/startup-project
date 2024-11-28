@@ -11,7 +11,7 @@ async function Page() {
 				loading='lazy'
 				className='h-96 w-full'
 			></iframe>
-			<div className='container mx-auto max-w-6xl'>
+			<div className='container mx-auto max-w-5xl'>
 				<div className='mt-6 grid grid-cols-2 gap-4 max-md:grid-cols-1'>
 					<div className='flex flex-col'>
 						<h1 className='font-spaceGrotesk text-4xl'>Touch base with us</h1>
