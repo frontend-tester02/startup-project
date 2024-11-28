@@ -6,7 +6,7 @@ import { MdEmail } from 'react-icons/md'
 function Hero() {
 	return (
 		<>
-			<div className='mx-auto flex justify-center min-h-screen max-w-6xl gap-8 text-center max-md:mt-32'>
+			<div className='mx-auto flex justify-center min-h-screen max-w-5xl gap-8 text-center max-md:mt-32'>
 				<div className='w-[700px] flex flex-col space-y-4 self-center'>
 					<h1 className='font-serif text-3xl font-bold'>
 						I am <span className='text-blue-500'>Nuriddinov Shokhrukh</span>

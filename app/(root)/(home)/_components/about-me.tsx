@@ -4,7 +4,7 @@ import Image from 'next/image'
 function AboutMe() {
 	return (
 		<>
-			<div className='mx-auto flex flex-col justify-center max-w-6xl gap-8 text-center max-md:mt-32'>
+			<div className='mx-auto flex flex-col justify-center max-w-5xl gap-8 text-center max-md:mt-32'>
 				<div className='w-[700px] flex flex-col space-y-4 self-center'>
 					<h1 className='font-serif text-3xl font-bold'>
 						About Me<span className='text-blue-500'>.</span>
@@ -35,7 +35,7 @@ function AboutMe() {
 					</p>
 				</div>
 
-				<div className='w-full flex flex-col'>
+				<div className='w-full flex flex-col mt-4'>
 					<h1 className=' mb-2 font-serif text-3xl font-bold text-start'>
 						Tech Stack<span className='text-blue-500'>.</span>
 					</h1>

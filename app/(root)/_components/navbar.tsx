@@ -9,10 +9,10 @@ function Navbar() {
 	const pathname = usePathname()
 	return (
 		<div className='h-[10vh] fixed backdrop-blur-sm border-b inset-0 bg-background z-40'>
-			<div className='container max-w-6xl mx-auto h-[10vh] w-full flex items-center justify-between'>
+			<div className='container max-w-5xl mx-auto h-[10vh] w-full flex items-center justify-between'>
 				{/* LOGO */}
 				<Link href={'/'}>
-					<h1 className='text-4xl'>shokh.dev</h1>
+					<h1 className='text-4xl'>shoky.dev</h1>
 				</Link>
 				<div className='gap-2 md:flex hidden'>
 					{navLinks.map(nav => (

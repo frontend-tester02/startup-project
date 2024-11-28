@@ -47,3 +47,24 @@ export const techStack = [
 		image: '/assets/git.svg',
 	},
 ]
+
+export const projectData = [
+	{
+		title: 'Udemy clone',
+		githubLink: 'https://github.com/frontend-tester02/udemy',
+		demoLink: 'https://shokh-udemy.vercel.app/en',
+		previewImage: '/assets/udemy-clone.png',
+		description:
+			'A website I created for my nail salon business that I manage, located in Surrey BC. Users can read about us and learn more about our services while also booking online appointments.',
+		tags: ['ReactJs', 'NextJs', 'TypeScript', 'MongoDB'],
+	},
+	{
+		title: 'NurBlog',
+		githubLink: 'https://github.com/frontend-tester02/shokh-blog',
+		demoLink: 'https://shokh-blog.vercel.app/',
+		previewImage: '/assets/blog.png',
+		description:
+			'A website I created for my nail salon business that I manage, located in Surrey BC. Users can read about us and learn more about our services while also booking online appointments.',
+		tags: ['ReactJs', 'NextJs', 'TypeScript'],
+	},
+]
