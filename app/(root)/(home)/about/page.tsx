@@ -7,11 +7,13 @@ import { Github, Linkedin, Mail } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Footer } from '../../_components/footer'
+import TopBar from '@/components/shared/tob-bar'
 
 function About() {
 	return (
 		<>
-			<div className='mx-auto flex flex-col justify-center min-h-[80vh] max-w-5xl gap-8 text-center max-md:mt-32 px-4'>
+			<TopBar label='About' />
+			<div className='mx-auto flex flex-col justify-center min-h-[80vh] max-w-5xl gap-8 text-center max-md:mt-20 px-4'>
 				<div className='mb-8 flex flex-col md:flex-row items-center gap-8'>
 					<div className='md:w-1/3'>
 						<Image

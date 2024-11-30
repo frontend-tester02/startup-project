@@ -8,12 +8,14 @@ import parse from 'html-react-parser'
 import { Separator } from '@/components/ui/separator'
 import ShareBtns from './_components/share-btns'
 import { Footer } from '@/app/(root)/_components/footer'
+import TopBar from '@/components/shared/tob-bar'
 
 async function Page({ params }: { params: { slug: string } }) {
 	const blog = await getDetailedBlog(params.slug)
 	return (
 		<>
-			<div className='container mx-auto max-w-4xl pt-[15vh] px-4'>
+			<TopBar label='Blogs' extra='Blog information' />
+			<div className='container mx-auto max-w-4xl pt-[10vh] px-4'>
 				<h1 className='font-serif text-4xl font-bold md:text-5xl lg:text-6xl'>
 					{blog.title}
 				</h1>
