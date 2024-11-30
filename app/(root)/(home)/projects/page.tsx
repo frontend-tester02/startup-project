@@ -1,6 +1,7 @@
 import ProjectsCard from '@/components/cards/projects.card'
 import TopBar from '@/components/shared/tob-bar'
 import { projectData } from '@/constants'
+import { Footer } from '../../_components/footer'
 
 function Page() {
 	return (
@@ -16,6 +17,8 @@ function Page() {
 					))}
 				</div>
 			</div>
+
+			<Footer />
 		</>
 	)
 }

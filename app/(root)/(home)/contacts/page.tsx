@@ -1,6 +1,7 @@
 import ContactForm from '@/components/forms/contact'
 import TopBar from '@/components/shared/tob-bar'
 import { Mail, Phone } from 'lucide-react'
+import { Footer } from '../../_components/footer'
 
 async function Page() {
 	return (
@@ -36,6 +37,8 @@ async function Page() {
 					</div>
 				</div>
 			</div>
+
+			<Footer />
 		</>
 	)
 }

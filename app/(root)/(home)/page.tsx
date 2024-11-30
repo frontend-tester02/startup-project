@@ -1,13 +1,10 @@
-import AboutMe from './_components/about-me'
 import Hero from './_components/hero'
-import Projects from './_components/projects'
+import About from './about/page'
 
 function Page() {
 	return (
 		<>
 			<Hero />
-			<AboutMe />
-			<Projects />
 		</>
 	)
 }

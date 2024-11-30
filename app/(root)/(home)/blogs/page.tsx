@@ -1,6 +1,7 @@
 import BlogCard from '@/components/cards/blog.card'
 import TopBar from '@/components/shared/tob-bar'
 import { getBlogs } from '@/service/blog.service'
+import { Footer } from '../../_components/footer'
 
 async function Page() {
 	const blogs = await getBlogs()
@@ -17,6 +18,8 @@ async function Page() {
 					))}
 				</div>
 			</div>
+
+			<Footer />
 		</>
 	)
 }
