@@ -15,7 +15,7 @@ import Image from 'next/image'
 function Hero() {
 	return (
 		<>
-			<div className='mx-auto flex justify-center min-h-[86vh] max-w-5xl gap-8 text-center max-md:mt-32'>
+			<div className='mx-auto flex justify-center min-h-[86vh] max-w-5xl gap-8 text-center '>
 				<div className='w-[700px] flex flex-col space-y-4 self-center'>
 					<h1 className='font-serif text-3xl font-bold'>
 						I am <span className='text-blue-500'>Nuriddinov Shokhrukh</span>
@@ -66,7 +66,7 @@ function Hero() {
 			</div>
 			<div className='w-full bg-secondary'>
 				<Carousel
-					opts={{ align: 'center', loop: true }}
+					opts={{ align: 'end', loop: true }}
 					plugins={[Autoplay({ delay: 2000 })]}
 					className='container mx-auto w-full max-w-6xl'
 				>

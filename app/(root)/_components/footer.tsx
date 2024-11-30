@@ -7,7 +7,7 @@ import { GitlabIcon as GitHub, Mail, MapPin, PhoneCall } from 'lucide-react'
 export function Footer() {
 	return (
 		<div className='mt-12 pt-2 bg-secondary'>
-			<div className='container mx-auto px-4 py-8 max-w-5xl'>
+			<div className='container mx-auto py-8 max-w-5xl'>
 				{/* <div className='grid grid-cols-1 md:grid-cols-4 gap-8'>
 					<div className='col-span-2 space-y-4'>
 						<h2 className='text-2xl font-bold'>shoky.dev</h2>

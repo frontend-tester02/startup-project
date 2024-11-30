@@ -4,7 +4,7 @@ import { Footer } from './_components/footer'
 
 const Layout = ({ children }: ChildProps) => {
 	return (
-		<div className='px-4'>
+		<div className=''>
 			<Navbar />
 			<main>{children}</main>
 		</div>

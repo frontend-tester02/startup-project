@@ -11,7 +11,7 @@ import { Footer } from '../../_components/footer'
 function About() {
 	return (
 		<>
-			<div className='mx-auto flex flex-col justify-center min-h-[80vh] max-w-5xl gap-8 text-center max-md:mt-32'>
+			<div className='mx-auto flex flex-col justify-center min-h-[80vh] max-w-5xl gap-8 text-center max-md:mt-32 px-4'>
 				<div className='mb-8 flex flex-col md:flex-row items-center gap-8'>
 					<div className='md:w-1/3'>
 						<Image
@@ -59,7 +59,7 @@ function About() {
 				</div>
 			</div>
 
-			<div className='mb-16 container mx-auto max-w-5xl font-serif'>
+			<div className='mb-16 container mx-auto max-w-5xl font-serif px-4'>
 				<h1 className='text-3xl font-bold mb-4'>Skills</h1>
 				<div className='flex flex-wrap gap-2'>
 					{[
@@ -80,7 +80,7 @@ function About() {
 				</div>
 			</div>
 
-			<div className='mb-16 container mx-auto max-w-5xl font-serif'>
+			<div className='mb-16 container mx-auto max-w-5xl font-serif px-4'>
 				<h1 className='text-3xl font-bold mb-4'>Experience</h1>
 				<div className='space-y-4'>
 					{[
@@ -115,7 +115,7 @@ function About() {
 				</div>
 			</div>
 
-			<div className='container mx-auto max-w-5xl font-serif'>
+			<div className='container mx-auto max-w-5xl font-serif px-4'>
 				<h1 className='text-3xl font-bold mb-4'>Let's Connect</h1>
 				<p className='mb-4'>
 					I'm always open to new opportunities and collaborations. Feel free to

@@ -34,7 +34,7 @@ function Mobile() {
 				<div className='mt-4 flex flex-col space-y-3'>
 					{navLinks.map(nav => (
 						<Link
-							href={`/${nav.route}`}
+							href={nav.route}
 							key={nav.route}
 							className='flex h-12 cursor-pointer items-center gap-2 rounded-md px-3 transition-colors hover:bg-blue-400/20'
 						>
